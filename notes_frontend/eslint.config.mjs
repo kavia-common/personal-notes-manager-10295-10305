@@ -37,6 +37,12 @@ export default [
     languageOptions: {
       globals: {
         document: "readonly",
+        window: "readonly",
+        console: "readonly",
+        fetch: "readonly",
+        URL: "readonly",
+        setTimeout: "readonly",
+        clearTimeout: "readonly",
       },
     },
   },
